@@ -1,19 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
-    <title>Mi Página</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden web</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .nav-item button {
+    background-color: gold; 
+    color: #333;
+    border: 2px solid gold; 
+    border-radius: 10px; 
+    text-shadow: 0px 0px 10px gold; 
+  }
+
+  .nav-item button:hover {
+    box-shadow: 0px 0px 15px #fcf6bd; 
+  }
+
+    body {
+        background: rgb(252, 252, 41);
+        background: linear-gradient(90deg, rgb(203, 203, 39) 0%, rgb(173, 151, 28),
+        rgb(242, 235, 46) 35%, rgb(228, 235, 36) 100%);
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <button class="botoncito">soy un botoncito</button>
-       
-        <div class="container2">
-            <button class="botoncito">soy un botoncito</button>
-    </div>
+    <audio id="miAudio" autoplay loop>
+        <source src="ruta/al/archivo-de-audio.mp3" type="audio/mp3">
+        Tu navegador no soporta la reproducción de audio.
+      </audio>
 
-    <script src="script.js"></script> 
+  <div class="container">
+    <header>
+      <h1>Bienvenido a Golden web</h1>
+    </header>
+
+    <!-- necesito darles una funciòn a cada boton y decorarlos para que se vean mas primitivos-->
+
+    <nav>
+      <ul class="nav">
+        <li class="nav-item">
+          <button class="nav-link" href="#">Inicio de sesion</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" href="#">comics</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" href="#">GoldenWiki</button>
+        </li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>Esta es una Pagina web oficial de los comics de Golden Dissonance</h2>
+      <p>Golden dissonance es una historia donde nuestro protagonista vive en un mundo "modificado" y su objetivo es descubrir por que O quienes modifican el mundo.</p>
+      <p>Espero les guste y sea de su agrado la historia y que les llame la atenciòn :D</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Golden Webs</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
