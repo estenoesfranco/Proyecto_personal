@@ -1,0 +1,1 @@
+//este script es para el front

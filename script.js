@@ -30,6 +30,6 @@ server.post('/Saludo2', (req, res) => {
 console.log('mundo: muy FRENETICO');
 
 server.listen(port, () => {
-    console.log(`El servidor está funcionando en http://localhost:${port}/`);
+    console.log(`El servidor aun no está funcionando en http://localhost:${port}/`);
   });
 
